@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.judav_000.pgr02excitementdocumentation" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HandheldActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Camera"/>
+        <activity android:name=".FindTweet"/>
+        <service android:name=".ListenerServiceFromWear">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ff22eb1eb456404e4e695a190094fe503de78ef5" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

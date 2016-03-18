@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PGR02ExcitementDocumentation</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="welcome">Welcome to Excitement Documentation!</string>
+    <string name="description">Make sure you are connected to your phone. The app will
+    notify you when you are excited so you can document exciting things!</string>
+</resources>

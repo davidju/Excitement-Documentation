@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PGR02ExcitementDocumentation</string>
+
+    <string name="key_twitter"></string>
+    <string name="key_twitter_secret"></string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Prepare to be excited!</string>
+    <string name="appname">Excitement Documentation</string>
+    <string name="waiting_for_excitement">Waiting For You to Be Excited!</string>
+
+</resources>
